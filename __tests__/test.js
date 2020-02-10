@@ -1,11 +1,11 @@
-let algos = require("../groupArrays.js");
+let algos = require("../removeSpaces.js");
 
-test("groups the arrays into an array of arrays of given length, any remainding go in last array", () => {
-    
-    expect(algos.groupArrays(["a", "b", "c", "d"], 4)).toMatchObject([ [ 'a', 'b', 'c', 'd' ] ])
-    expect(algos.groupArrays(["a", "b", "c", "d"], 3)).toMatchObject([ [ 'a', 'b', 'c' ], [ 'd' ] ])
-    expect(algos.groupArrays(["a", "b", "c", "d"], 2)).toMatchObject([ [ 'a', 'b' ], [ 'c', 'd' ] ])
-    
-  })
+//REMOVE SPACES
+//return the given string without spaces
+test("removes spaces from string", () => {
+  expect(algos.removeSpaces("alphabet soup is green")).toBe(
+    "alphabetsoupisgreen"
+  )
+})
 
   
