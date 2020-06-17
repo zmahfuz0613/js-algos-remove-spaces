@@ -4,6 +4,10 @@
 
 "Remove Spaces"
 
+_Language: JavaScript_
+
+_Difficulty: Easy_
+
 ### Objectives
 
 - Remove all spaces from a string (`str`).
@@ -15,7 +19,5 @@
 - Run `npm i` from within the repo.
 - Run `npm run test` or `npm test` to make sure the tests work. (They should fail at first.)
 - Get hacking on the problem, test when you think you've got it, and open a PR when it's done!
-
-### Notes
 
 Pull requests due by 11pm. Happy hacking!
