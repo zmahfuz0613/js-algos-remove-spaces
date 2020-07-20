@@ -1,4 +1,5 @@
 //REMOVE SPACES
+// pending
 
 const removeSpaces = str => {
 
