@@ -1,8 +1,8 @@
 //REMOVE SPACES
-// pending
 
 const removeSpaces = str => {
 
+  return str.replace(/\s+/g, '');
 }
 
 console.log(removeSpaces("alphabet soup is green   "))
